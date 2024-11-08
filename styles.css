@@ -1,0 +1,107 @@
+.navbar{
+  position: fixed;
+  border-radius: 20px;
+  margin-bottom: 8px;
+  background-color: whitesmoke;
+height: 80px;
+width: 100%;
+border: 5px;
+border-radius: 10px;
+}
+.navbar img{
+height: 80px;
+width: 100px;
+/* border-radius: 30px; */
+margin-left: 50px;
+}
+.navbar button{
+  padding: 5px;
+  margin-left: 5px;
+  background-color: whitesmoke;
+  border: 2px;
+  border-radius: 5px;
+
+}
+.sidebar{
+  background-color: white;
+  display: flex;
+}
+.sidebarleft{
+  border-radius: 20px;
+  margin-left: 10px;
+  background-color: whitesmoke;
+}
+.sidebarleft ul li {
+  margin-top: 2px;
+}
+.sidebarright{
+  border-radius: 20px;
+  background-color: whitesmoke;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.btn{
+  border-radius: 8px;
+  margin: 20px;
+  width: 300px;
+  height: 100px;
+  color: black;
+  background-color: rgb(187, 255, 0);
+}
+.sidebarright img{
+  height:400px ;
+  width: 100%;
+}
+.color-changing-text {
+  animation: color-change 5s infinite;
+  }
+  
+  @keyframes color-change {
+  0% {
+  color: red;
+  }
+  20% {
+  color: orange;
+  }
+  40% {
+  color: yellow;
+  }
+  60% {
+  color: green;
+  }
+  80% {
+  color: blue;
+  }
+  100% {
+  color: purple;
+  }
+  }
+  .jusify-text{
+text-align: justify;
+  }
+  .end {
+    
+    justify-content: center;
+    background-color: lawngreen;
+    height: 100px;
+    width: 100%;
+  }
+  .end svg{
+    margin-left: 100px;
+  }
+  .searchbox{
+    /* background-color: blueviolet;
+    /* height: 100px;
+    width: 500px; */ */
+  }
+  .searchbutton{
+    background-color: aqua;
+  }
+  .searchbox{
+display: flex;
+  }
+  .searchbox input{
+   border-radius: 30px;
+    width: 700px;
+    height: 40px;
+  }
